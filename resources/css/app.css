@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar-link {
+    @apply block w-full text-left px-6 py-2 rounded-md transition-all duration-200 text-lg font-bold tracking-wide;
+}
+
+.sidebar-link:hover {
+    @apply bg-purple-100 text-purple-800;
+}
+
+.sidebar-link.active {
+    @apply bg-blue-300 text-white shadow-lg;
+}
